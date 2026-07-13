@@ -1,8 +1,7 @@
 # Iterative Schema Refinement for Clinical Note Summarisation
 
 Code accompanying the paper. It covers the full pipeline: generating clinical
-note summaries (or filled clinical schemas) with the proposed **iterative schema
-refinement** method and several baselines, then evaluating them with two
+note summaries (or filled clinical schemas) with the proposed framework and several baselines, then evaluating them with two
 complementary faithfulness/coverage frameworks (SelfCheckGPT and an LLM-judge
 DeepEval suite), and aggregating the results into paper-ready tables.
 
