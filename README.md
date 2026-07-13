@@ -6,9 +6,11 @@ refinement** method and several baselines, then evaluating them with two
 complementary faithfulness/coverage frameworks (SelfCheckGPT and an LLM-judge
 DeepEval suite), and aggregating the results into paper-ready tables.
 
-Every generation output is standardised to two columns — `source_text` (the
-original note) and `model_output` (a summary **or** a filled JSON schema) — so
-all downstream metrics are approach-agnostic.
+
+## Overview
+
+Clinical notes contain most of the clinically relevant information in electronic health records (EHRs), yet their unstructured free-text format limits automated analysis. This repository implements an Iterative Feedback–Refinement framework that learns a structured clinical schema directly from unstructured notes. An evaluator LLM assesses how well the current schema captures a set of clinical notes, and a refiner LLM improves the schema from the aggregated feedback. Rather than refining individual outputs, the framework refines the shared schema, which lets each improvement benefit all subsequent extractions without annotated data or model fine-tuning. Evaluated on the public MTSamples dataset with eight open-weight LLMs, it produces compact, faithful structured representations while reducing document length to roughly one-third of the original notes.
+
 
 <p align="center">
   <img
