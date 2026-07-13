@@ -12,7 +12,7 @@ all downstream metrics are approach-agnostic.
 
 <p align="center">
   <img
-    src="framework.png"
+    src="fraemwork.png"
     alt="Framework overview showing the iterative schema refinement pipeline. Clinical notes are embedded and clustered, then each cluster is evaluated, aggregated, and used to refine a shared schema before generating structured clinical documents."
     width="100%"
   />
