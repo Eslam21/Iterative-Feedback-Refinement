@@ -2,7 +2,7 @@
 
 Code accompanying the paper. It covers the full pipeline: generating clinical
 note summaries (or filled clinical schemas) with the proposed framework and several baselines, then evaluating them with two
-complementary faithfulness/coverage frameworks (SelfCheckGPT and an LLM-judge
+complementary faithfulness frameworks (SelfCheckGPT and an LLM-judge
 DeepEval suite), and aggregating the results into paper-ready tables.
 
 
