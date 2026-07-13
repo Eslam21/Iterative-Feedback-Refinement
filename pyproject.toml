@@ -1,0 +1,23 @@
+[project]
+name = "sglang-env"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "deepeval>=4.0.0",
+    "ipykernel>=7.2.0",
+    "jsondiff>=2.2.1",
+    "nltk>=3.9.4",
+    "numpy>=1.24",
+    "openai>=1.0",
+    "pandas>=2.0",
+    "psutil>=5.9",
+    "requests>=2.31",
+    "scikit-learn>=1.8.0",
+    "seaborn>=0.13.2",
+    "selfcheckgpt>=0.1.7",
+    "sglang[all]>=0.5.9",
+    "spacy>=3.8.14",
+    "torch>=2.0",
+    "transformers>=4.40",
+]
